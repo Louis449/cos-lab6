@@ -6,7 +6,9 @@
     <title>Login Page</title>
 </head>
 <body>
-    
+    <?php
+        include 'header.inc'; 
+    ?>    
 
     <form method="post" action="process.php">
         <label for="username">Username: </label>
